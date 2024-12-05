@@ -37,6 +37,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  transition: background-color 0.5s;
+  cursor: pointer;
 }
 
 .form__checkbox {
@@ -62,4 +64,8 @@
 
 ::placeholder {
   color: #838383;
+}
+
+.form__button:hover {
+  background-color: #3f96f3;
 }
